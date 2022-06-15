@@ -365,10 +365,52 @@ section{
     font-size: 1.5rem;
 }
 
-.review .box-container{
-    display: grid;
+/*REVIEW SECTION CSS START*/
+.swiper{
+    width: 95%;
+    padding: 0px 8px;
+    height: fit-content;
+}
+/* .review .box-container{
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
+    
+} */
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+}
+.swiper .swiper-button-prev{
+    left: -1px;
+}
+.swiper .swiper-button-prev:hover{
+    color: var(--main-color)
+}
+.swiper .swiper-button-prev:active{
+    border: 1px solid #fff;
+    background-color: aliceblue;
+}
+.swiper .swiper-button-next{
+    right: -1px;
+}
+.swiper .swiper-button-next:hover{
+    color: var(--main-color)
+}
+.swiper .swiper-button-next:active{
+    border: 1px solid #fff;
+    background-color: aliceblue;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: var(--main-color);
+}
+.swiper-pagination-bullet{
+    background: #fff;
+}
+.swiper-pagination{
+    position: relative;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -2px;
 }
 
 .review .box-container .box{
@@ -382,6 +424,12 @@ section{
     line-height: 1.4;
     color:#ccc;
     padding:2rem 0;
+}
+.review .box-container .box summary {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #ccc;
+    padding: 2rem 0;
 }
 
 .review .box-container .box .user{
@@ -401,6 +449,7 @@ section{
     font-size: 1.5rem;
     color:var(--main-color);
 }
+/*REVIEW SECTION CSS ENDS*/
 
 .contact .row{
     display: flex;
