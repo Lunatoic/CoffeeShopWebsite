@@ -262,7 +262,13 @@ section{
     padding:1rem 0;
     line-height: 1.8;
 }
-
+.menu .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8
+    
+}
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -304,7 +310,13 @@ section{
 .menu .box-container .box:hover > *{
     color:var(--black);
 }
-
+.menu #more{
+    border-radius:50%;
+    height:200px;
+    width:360px;
+    margin-top:66px;
+    box-shadow: 4px 4px 6px 2px #403f3e , -4px -4px 6px 2px #403f3e;
+}
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
