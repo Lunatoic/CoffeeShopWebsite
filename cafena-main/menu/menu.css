@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 .heading{
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-bottom: 1.5rem;
 }
 #menu-btn{
@@ -92,6 +92,47 @@ section{
 .btn:hover{
     letter-spacing: .2rem;
 }
+
+/*------------------------*/
+.home {
+    min-height: initial;
+    display: flex;
+    align-items: center;
+    background: url(../images/menuHome.jpg) no-repeat;
+    height: 592px;
+    background-size: contain;
+    
+}
+.home .content{
+    display: flex;
+    flex-direction: column;
+}
+.home .content .heading p{
+    font-size: 3em;
+    text-align: left;
+    display: inline;
+    position:absolute;
+    top: 154px;
+    left: 198px;
+}
+.home .content .heading div{
+    display: inline;
+    position:absolute;
+    top: 227px;
+    left: 268px;
+}
+.home .homeImg img{
+    height: 162px;
+    border-radius: 100px;
+    position:absolute;
+    bottom: 100px;
+    left: 645px;
+}
+.home .homeImg img:hover{
+    box-shadow: 0px 0px 4px 4px var(--main-color);
+}
+
+/* ---------------------------- */
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -176,7 +217,7 @@ section{
     border-color: rgb(68, 67, 67);
     box-shadow: 4px 4px 6px 2px #403f3e , -4px -4px 6px 2px #403f3e;
     font-size:2rem;
-    text-color:var(--main-color);
+    color:var(--main-color);
     color:#fff;
     text-align: left;
 }
