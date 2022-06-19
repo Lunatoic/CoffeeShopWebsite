@@ -36,6 +36,7 @@
     height: calc(100vh - 21rem);
     animation-name: dropDownImg;
     animation-duration: 2s;
+    
 }
 
 .products .box-container{

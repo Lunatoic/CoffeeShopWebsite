@@ -596,7 +596,13 @@ section {
 .footer .share {
     padding: 1rem 0;
 }
-
+.footer .follow{
+    text-align: center;
+    color:#ccc;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;;
+    
+}
 .footer .share a {
     height: 5rem;
     width: 5rem;
