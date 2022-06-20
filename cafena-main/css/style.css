@@ -591,6 +591,8 @@ section {
 .footer {
     background: var(--black);
     text-align: center;
+    background: url(../images/bg.PNG) no-repeat;
+    background-size: cover;
 }
 
 .footer .share {
@@ -598,8 +600,10 @@ section {
 }
 .footer .follow{
     text-align: center;
-    color:#ccc;
+    color:#fff;
+    font-weight:700;
     font-size: 2rem;
+    margin-top:26px;
     font-family: 'Poppins', sans-serif;;
     
 }
@@ -610,13 +614,14 @@ section {
     font-size: 2rem;
     color: #fff;
     border: var(--border);
-    margin: .3rem;
+    padding-left: 1.6rem;
     border-radius: 50%;
 }
 
-.footer .share a:hover {
+.footer a:hover {
     background-color: var(--main-color);
 }
+
 
 .footer .links {
     display: flex;
@@ -646,6 +651,63 @@ section {
 
 .footer .credit span {
     color: var(--main-color);
+}
+
+.flex-container{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content:center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+
+
+}
+.flex-items{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    font-size:2rem;
+    color:#ccc;
+    
+}
+.footer .flex-items a{
+    text-align:left;
+    font-size:2rem;
+    color: #fff;
+
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #571581;
+    padding: 1rem 0;
+    text-align: center;
+    color:white;
+}
+.footer .copyright{
+    font-size:1.6rem;
+}
+.footer .copyright a {
+    display: inline-block;
+    font-weight: 400;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+.footer .copyright a:hover {
+    color: #42caff;
+    font-weight: 800;
+}
+
+.footer .copyright .logo-bottom {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
 }
 
 
