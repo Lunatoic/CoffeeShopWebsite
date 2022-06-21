@@ -28,6 +28,14 @@ window.onscroll = () =>{
     cartItem.classList.remove('active');
 }
 
+let dine = document.querySelector('.dine');
+setInterval(() => {
+    dine.style.boxShadow = "0px 0px 2px 2px red";
+}, 3000);
+setInterval(() => {
+    dine.style.boxShadow = "none";
+}, 3600);
+
 var swiper = new Swiper(".review-slider", {
     spaceBetween: 20,
     loop:true,
@@ -57,3 +65,4 @@ var swiper = new Swiper(".review-slider", {
         prevEl: '.swiper-button-prev',
     },
 });
+
