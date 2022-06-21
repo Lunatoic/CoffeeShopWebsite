@@ -179,19 +179,50 @@
 }
 
 
-@media(max-width:991px)
+@media(max-width:800px)
 {
     .contact
    {
         padding:50px;
    }
-    .container
+    .containerrr
    {
         flex-direction:column;
    }
-    .container .contactInfo
+    .containerrr .contactInfo
    {
         margin-bottom:40px;
    }
+   .containerrr .contactInfo,
+   .contactForm
+   {
+        width:100%;
+   }
+ 
+}
+@media(max-width:600px)
+{
+    .contact
+   {
+        padding:50px;
+   }
+   .contact .content
+   {
+        padding:50px;
+   }
 
+    .containerrr
+   {
+        flex-direction:column;
+   }
+    .containerrr .contactInfo
+   {
+        margin-bottom:40px;
+   }
+   .containerrr .contactInfo,
+   .contactForm
+   {
+        width:100%;
+   }
+ 
 }
