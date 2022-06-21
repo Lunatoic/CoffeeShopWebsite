@@ -62,6 +62,11 @@
     font-weight: bolder;
 }
 
+.home .content p {
+    font-weight: bold;
+    font-style: italic;
+}
+
 .home .homeImg img {
     height: 162px;
     border-radius: 100px;

@@ -96,7 +96,7 @@ section {
 }
 
 .header .navbar a {
-    margin: 0 1rem;
+    margin: 0 1.7rem;
     font-size: 1.6rem;
     color: #fff;
 }
@@ -712,17 +712,25 @@ section {
 
 .footer .dine{
     position: fixed;
-    border: 2px solid red;
-    background-color: #403f3e;
+    /* border: 2px solid red; */
     height: 75px;
     width: 75px;
     border-radius: 100px;
     bottom: 20px;
     right: 20px;
     cursor: pointer;
+    z-index: 2;
 }
-.footer .dine:hover{
-    box-shadow: 0px 0px 3px 3px #fff;
+
+.dine img{
+    height: 145px;
+    position: fixed;
+    bottom: -6px;
+    right: -12px;
+}
+
+.footer .dine img:hover{
+    height: 150px;
 }
 
 
