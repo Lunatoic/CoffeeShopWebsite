@@ -121,13 +121,13 @@
     color: var(--black);
 }
 
-.menu #more {
+/* .menu #more {
     border-radius: 50%;
     height: 200px;
     width: 360px;
     margin-top: 66px;
     box-shadow: 4px 4px 6px 2px #403f3e, -4px -4px 6px 2px #403f3e;
-}
+} */
 
 .menu .content p {
     font-size: 2rem;

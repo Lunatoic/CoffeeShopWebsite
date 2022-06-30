@@ -55,6 +55,7 @@ section {
     color: #fff;
     text-transform: uppercase;
     padding-bottom: 3.5rem;
+    padding-top:3.5rem;
     font-size: 4rem;
 }
 
@@ -314,12 +315,24 @@ section {
 .menu .box-container .box:hover>* {
     color: var(--black);
 }
+.menu .box-container #more:hover {
+    background:black;
+}
+
+.menu .box-container #more:hover>* {
+    color: var(--white);
+}
 .menu #more{
+    align-content: center;
+    border-color: #010103;
+    padding-top: 100px;
+}
+/* .menu #more{
     border-radius:50%;
     height:200px;
     margin-top:66px;
     box-shadow: 4px 4px 6px 2px #403f3e , -4px -4px 6px 2px #403f3e;
-}
+} */
 
 .products .box-container {
     display: grid;
@@ -593,7 +606,53 @@ section {
     background: url(../images/bg.PNG) no-repeat;
     background-size: cover;
 }
+.footer .name{
+      color:#d3ad7f;
+      margin:3rem;
+      font-size:4rem;
+      font-weight:100px;
 
+}
+.footer .name-content{
+    color:white;
+    margin-left:30px;
+    margin-top:-10px;
+
+
+}
+.footer .name-content1{
+    color:white;
+    margin-left:70px;
+    margin-top:-10px;
+
+
+}
+.footer .h2{
+    font-weight: bolder;
+    text-decoration:underline;
+    text-decoration-thickness:2px;
+    margin-left:-1px;
+}
+.footer .underline1{
+    border-bottom-width: 60px;
+    border-radius: 10px;;
+    border-style: solid;
+    color:#d3ad7f;
+    margin-top:-70px;
+    margin-left:10px;
+}
+.footer .underline{
+    border-bottom-width: 0px;
+    border-style: solid;
+    color: #ccc;
+    border-radius: 10px;
+    margin: 20px 30px 10px 30px;
+
+
+}
+/* .footer #item2{
+    align-items: flex-start;
+} */
 .footer .share {
     padding: 1rem 0;
 }
@@ -613,7 +672,7 @@ section {
     font-size: 2rem;
     color: #fff;
     border: var(--border);
-    padding-left: 1.6rem;
+    padding-left: 1.rem;
     border-radius: 50%;
 }
 
@@ -667,12 +726,15 @@ section {
     flex-wrap:wrap;
     font-size:2rem;
     color:#ccc;
+    align-items: flex-start;
+    line-height:5vh;
     
 }
 .footer .flex-items a{
     text-align:left;
     font-size:2rem;
     color: #fff;
+    line-height:5vh;
 
 }
 .footer {
@@ -681,6 +743,7 @@ section {
     width: 100%;
     background-color: #571581;
     padding: 1rem 0;
+    padding-top: 3rem;
     text-align: center;
     color:white;
 }
