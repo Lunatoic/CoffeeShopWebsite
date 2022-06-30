@@ -206,10 +206,28 @@
     #deal{
         font-size: 1.5rem;
     }
+    .home::before{
+        background-position: center;
+    }
 }
 
 @media (max-width:576px){
     #deal{
         flex-direction: column-reverse;
+    }
+}
+@media (max-width: 439px){
+    .home::before {
+        content: "";
+        background: url(../images/menuMobImg.jpg);
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0px;
+        left: 0px;
+        height: 571px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.6;
     }
 }

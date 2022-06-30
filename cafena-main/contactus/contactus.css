@@ -33,6 +33,7 @@
    color:#d3ad7f;
    text-align: center;
    text-transform: uppercase;
+   padding-top: 3.5rem;
    padding-bottom: 3.5rem;
    font-size: 4rem;
    
@@ -60,7 +61,7 @@
    display:flex;
    justify-content:center;
    align-items:center;
-   margin-top:30px;
+   
 }
 .containerrr .contactInfo
 {
@@ -107,8 +108,8 @@
 }
 .contactForm
 {
-   width:40%;
-   padding:40px;
+   width:50%;
+   padding:15px;
    background:#13131a;
    text-align: center;
 }
@@ -132,7 +133,7 @@
 .contactForm .inputBox textarea
 {
   width:100%;
-  padding:5px 0;
+  padding:10px 0;
   font-size:16px;
    margin:10px 0;
    border:none;
@@ -163,7 +164,7 @@
 {
              
     color: #e91e63;
-    font-size: 12px;
+    font-size: 16px;
     transform:translateY(-20px);
 }
 
@@ -222,7 +223,62 @@
    .containerrr .contactInfo,
    .contactForm
    {
-        width:100%;
+        width:120%;
    }
  
 }
+@media(max-width:450px)
+{
+    
+   .containerrr .contactForm
+  
+   {
+      width:125%;
+      
+     
+     
+      
+   } 
+}
+@media(max-width:420px)
+{
+    
+   .containerrr .contactForm
+  
+   {
+      width:130%;
+      
+      
+     
+     
+      
+   } 
+}
+@media(max-width:360px)
+{
+    
+   .containerrr .contactForm
+  
+   {
+      width:135%;
+      
+     
+     
+      
+   } 
+}
+@media(max-width:300px)
+{
+    
+   .containerrr .contactForm
+  
+   {
+      width:140%;
+      
+     
+     
+      
+   } 
+}
+   
+ 

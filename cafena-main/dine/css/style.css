@@ -1,6 +1,19 @@
 body{
 	background-color: #101113;
 }
+.homeIcon{
+	padding: 4.5rem 2.5%;
+	position: fixed;
+	z-index: 1000;
+}
+.homeIcon .logo img{
+	height: 6rem;
+	/* border: 2px solid red; */
+}
+.logo{
+	color: white;
+}
+
 .section {
 	position: relative;
 	height: 100vh;
@@ -19,7 +32,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	background-image: url('../img/background.jpg');
 	background-size: cover;
-	background-position: center;
+	/* background-position: center; */
 }
 
 #booking::before {
@@ -138,4 +151,15 @@ body{
 	display: block;
 	border-radius: 3px;
 	text-transform: uppercase;
+}
+
+
+
+@media (max-width:768px){
+	.container{
+		height: 892.487px;
+	}
+	#booking{
+		height: 988px;
+	}
 }
