@@ -320,24 +320,10 @@ section {
 .menu .box-container .box:hover>* {
     color: var(--black);
 }
-.menu .box-container #more:hover {
-    background:black;
-}
 
 .menu .box-container #more:hover>* {
     color: var(--white);
 }
-.menu #more{
-    align-content: center;
-    border-color: #010103;
-    padding-top: 100px;
-}
-/* .menu #more{
-    border-radius:50%;
-    height:200px;
-    margin-top:66px;
-    box-shadow: 4px 4px 6px 2px #403f3e , -4px -4px 6px 2px #403f3e;
-} */
 
 .products .box-container {
     display: grid;
