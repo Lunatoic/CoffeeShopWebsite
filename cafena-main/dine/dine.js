@@ -1,9 +1,9 @@
-var logo = document.querySelector('.logo');
+var logo = document.querySelector('.logo>img');
 
 setInterval(() => {
-    logo.style.borderLeft = "2px solid red";
+    logo.style.borderBottom = "2px solid red";
 }, 3000);
 
 setInterval(() => {
-    logo.style.borderLeft = "none";
+    logo.style.borderBottom = "none";
 }, 3600);
